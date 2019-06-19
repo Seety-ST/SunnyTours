@@ -1,6 +1,77 @@
 .index-page .p1th{
     width: 100%;
-    height: 500px;
-    background: url("../../img/banner.png") no-repeat center;
+    height: 600px;
+    background: url("../../img/banner.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.index-page .p1th{
+    position: relative;
+}
+.index-page .p1th .item-1{
+    position: absolute;
+    left:50%;
+    top:50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+}
+.index-page .inner{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+    background:rgba(0,0,0,.6);
+}
+.index-page .p1th .item-1 .logo{
+    width: 125px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../img/logo1.png") no-repeat;
     background-size: cover;
 }
+.index-page .p1th .item-1 .txt{
+    color:#fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.index-page .p2th{
+    margin-top: 30px;
+}
+.index-page .p2th .lbox{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    padding:20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 30px 5px #c7c7c7;
+}
+.index-page .p2th .lbox img{
+    width: 100%;
+    height: 400px;
+    transition: all .8s;
+}
+.index-page .p2th .rbox{
+    width: 500px;
+    margin-left: 50px;
+}
+.index-page .p2th .rbox .item-1{
+    font-size: 48px;
+    color:#303445;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.index-page .p2th .rbox .item-2{
+    font-size: 18px;
+    color:#303445;
+    margin-bottom: 8px;
+}
+.index-page .p3th{
+    margin-top: 30px;
+}
+

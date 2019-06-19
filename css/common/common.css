@@ -122,3 +122,51 @@ a, textarea, input, button{outline:none}
     width: 1200px;
     margin: 0 auto;
 }
+.globle-head .w1200{
+    position: relative;
+}
+.globle-head .logo{
+    width: 63px;
+    height: 70px;
+    margin-top: 10px;
+    background: url("../../img/logo.jpg") no-repeat center;
+    background-size: cover;
+}
+.globle-head .nav-item{
+    margin-right: 150px;
+}
+.globle-head .nav-item .list li{
+    height: 90px;
+    line-height: 90px;
+    float: left;
+    padding: 0px 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#303445;
+    cursor: pointer;
+}
+.globle-head .nav-item .list li.cur{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom:2px solid #255894;
+    
+
+}
+.globle-head .nav-item .list li:hover{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom:2px solid #255894;
+}
+.globle-head .change-item{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.globle-head .change-item a{
+    height: 90px;
+    display: inline-block;
+    line-height: 90px;
+}
+.globle-head .change-item .line{
+    margin: 0px 6px;
+}
