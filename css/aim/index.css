@@ -1,0 +1,151 @@
+.aim-page .p1th{
+    width: 100%;
+    height: 600px;
+    background: url("../../img/banner2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.aim-page .p1th{
+    position: relative;
+}
+.aim-page .w1200{
+    position: relative;
+}
+.aim-page .w1200 .item-wrap{
+    width: 360px;
+    height: 600px;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+    background:rgba(0,0,0,.6);
+}
+.aim-page .w1200 .item-wrap .wrap{
+    margin-top:100px;
+}
+.aim-page .w1200 .item-wrap .item{
+    color:#fff;
+    padding:0px 20px;
+    margin-top: 30px;
+}
+.aim-page .w1200 .item-wrap .item .item-1{
+    font-size: 20px;
+
+}
+.aim-page .w1200 .item-wrap .item .item-2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.aim-page .p2th{
+    margin-top: 30px;
+}
+.aim-page .p2th .lbox{
+    width: 600px;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.aim-page .p2th .lbox img{
+    width: 100%;
+    height: 500px;
+    transition: all .8s;
+}
+.aim-page .p2th .rbox{
+    width: 500px;
+    
+    
+
+}
+.aim-page .p2th .rbox .desc{
+    font-size: 42px;
+}
+.aim-page .p2th .rbox .list{
+    margin-top: 35px;
+}
+.aim-page .p2th .rbox .list li{
+    background: url("../../img/circle.jpg") no-repeat;
+    background-position: left center;
+    background-size: 14px 14px;
+    padding-left: 30px;
+    color:#333;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.aim-page  .p3th{
+    margin-top: 60px;
+}
+.aim-page  .p3th .lbox{
+    width: 380px;
+    margin-right: 20px;
+    padding-top: 120px;
+}
+.aim-page .p3th .lbox .desc{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.aim-page .p3th .lbox .txt{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.p3th .rbox{
+    width: 800px;
+    height: 450px;
+
+}
+.p3th .rbox img{
+    width: 100%;
+    display: block;
+}
+.p4th{
+    margin-top:30px;
+}
+.p4th  .lbox{
+    width: 329px;
+    height: 300px;
+
+}
+.p4th  .lbox img{
+    width: 450px;
+    height: 300px;
+    object-fit:cover;
+}
+.p4th  .rbox {
+    width: 700px;
+}
+.p4th  .rbox .item{
+    margin-bottom: 18px;
+}
+.p4th  .rbox .txt-1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.p4th  .rbox .txt-2{
+    font-size: 16px;
+}
+.p5th{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p5th .img-item-1{
+    width: 100%;
+    height: 598px;
+    background: url("../../img/20.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p5th .img-item-2{
+    width: 1200px;
+    height:538px;
+    margin:20px auto 0px;
+    background: url("../../img/21.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aim-page  .title{
+    font-size: 20px;
+    padding:15px 0px;
+    color:#333;
+    font-weight: 700;
+}

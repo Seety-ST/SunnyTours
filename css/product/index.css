@@ -1,0 +1,127 @@
+.product-page .p1th{
+    width: 100%;
+    height: 600px;
+    background: url("../../img/banner2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.product-page .p1th{
+    position: relative;
+}
+.product-page .w1200{
+    position: relative;
+}
+.product-page .w1200 .item-wrap{
+    width: 360px;
+    height: 600px;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+    background:rgba(0,0,0,.6);
+}
+.product-page .w1200 .item-wrap .wrap{
+    margin-top:100px;
+}
+.product-page .w1200 .item-wrap .item{
+    color:#fff;
+    padding:0px 20px;
+    margin-top: 30px;
+}
+.product-page .w1200 .item-wrap .item .item-1{
+    font-size: 20px;
+
+}
+.product-page .w1200 .item-wrap .item .item-2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.product-page .p2th{
+    margin-top: 30px;
+}
+.product-page .p2th .lbox{
+    width: 600px;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.product-page .p2th .lbox img{
+    width: 100%;
+    height: 500px;
+    transition: all .8s;
+}
+.product-page .p2th .rbox{
+    width: 500px;
+    
+    
+
+}
+.product-page .p2th .rbox .desc{
+    font-size: 42px;
+}
+.product-page .p2th .rbox .list{
+    margin-top: 35px;
+}
+.product-page .p2th .rbox .list li{
+    background: url("../../img/circle.jpg") no-repeat;
+    background-position: left center;
+    background-size: 14px 14px;
+    padding-left: 30px;
+    color:#333;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.product-page  .p3th{
+    margin-top: 60px;
+}
+.product-page  .p3th .lbox{
+    width: 380px;
+    margin-left: 20px;
+    
+    
+}
+.product-page .p3th .lbox .desc{
+    font-size: 42px;
+    margin-bottom: 25px;
+    
+}
+.product-page .p3th .item{
+    margin-bottom: 28px;
+}
+.product-page .p3th .item-1 .lbox{
+    padding-top: 30px;
+}
+.product-page .p3th .item-2 .lbox{
+    padding-top: 30px;
+}
+.product-page .p3th .item-3 .lbox{
+    padding-top: 6px;
+}
+.product-page .p3th .item-4 .lbox{
+    padding-top: 70px;
+}
+.product-page .p3th .lbox .txt{
+    font-size: 16px;
+    margin-bottom: 14px;
+    background: url("../../img/24.jpg") no-repeat;
+    background-position: left 6px;
+    background-size: 12px 12px;
+    padding-left: 25px;
+}
+.p3th .rbox{
+    width: 750px;
+    height: 450px;
+
+}
+.p3th .rbox img{
+    width: 750px;
+    height: 450px;
+    object-fit:cover;
+}
+.product-page  .title{
+    font-size: 20px;
+    padding:15px 0px;
+    color:#333;
+    font-weight: 700;
+}
