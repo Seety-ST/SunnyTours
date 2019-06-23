@@ -65,7 +65,7 @@
 }
 .aim-page .p2th .rbox .list li{
     background: url("../../img/circle.jpg") no-repeat;
-    background-position: left center;
+    background-position: left 5px;
     background-size: 14px 14px;
     padding-left: 30px;
     color:#333;
